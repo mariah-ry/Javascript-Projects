@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Comparisons</title>
+        <script src="JS/main.js"></script>
+    </head>
+
+    <body>
+        <!-- Uses a math equation to display NaN -->
+        <p id="NaNtest" onclick="myNaN()">Click Here!</p>
+
+        <!-- Uses document.GetElementById to display True using a string -->
+        <p id="test2" onclick="nanTrue()">Click Here!</p>
+
+        <!-- Uses document.GetElementById to display False using a number -->
+        <p id="test3" onclick="nanFalse()">Click Here!</p>
+
+        <!-- Uses a number too large to display Infinity -->
+        <p id="positive" onclick="posInfinity()">Click Here!</p>
+
+        <!-- Uses a negative number too large in order to display -Infinity -->
+        <p id="negative" onclick="negInfinity()">Click Here!</p>
+
+        <!-- Uses Boolean to display "true" -->
+        <p id="true" onclick="blTrue()">Click Here!</p>
+
+        <!-- Uses Boolean to display "false" -->
+        <p id="false" onclick="blFalse()">Click Here!</p>
+
+        <!-- == Comparisons -->
+        <p id="comparetrue" onclick="compTrue()">Here is a True comparison - Click here</p>
+
+        <p id="comparefalse" onclick="compFalse()">Here is a false comparison- Click here</p>
+
+        <p id="sametypevalue" onclick="compSametypevalue()">Here is a comparison using the same type and value - Click here</p>
+
+        <p id="difftypevalue" onclick="compDifftypevalue()">Here is a comparison using a different data type and value.</p>
+
+        <p id="difftype" onclick="compDifftypesamevalue()">Here is a comparison using a different data type with the same value! Click Here.</p>
+
+        <p id="diffvalue" onclick="compDiffvaluesametype()">Here is a comparison using a different value with the same data type - Click here!</p>
+
+        <!-- Boolean Operators -->
+        <p id="andtrue" onclick="andTrue()">Here is a function that displays the result of a Boolean AND operator (true).</p>
+
+        <p id="andfalse" onclick="andFalse()">Here is a function that displays the restult of a Boolean AND operator (false).</p>
+
+        <p id="ortrue" onclick="orTrue()">Here is a function that shows the results of an OR operator that returns TRUE.</p>
+
+        <p id="orfalse" onclick="orFalse()">Here is a function that shows the results of an OR operator that returns FALSE.</p>
+
+        <p id="nottrue" onclick="notTrue()">Here is a not operator that displays TRUE.</p>
+
+        <p id="notfalse" onclick="notFalse()">Here is a not operator that displays FALSE.</p>
+
+        
+
+    </body>
+
+</html>
