@@ -26,7 +26,7 @@ function search_Function() {
 /* To string method */
 function stringfunction() {
     var num1 = 33;
-    document.getElementById("string").innerHTML = num.toString();
+    document.getElementById("string").innerHTML = num1.toString();
 }
 
 /* To precision method */
