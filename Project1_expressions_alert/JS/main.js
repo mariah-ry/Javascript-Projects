@@ -6,5 +6,5 @@ var A = "10"; //assigning the value 10 to variable A
 var B = "5"; //assigning value 5 to B
 var C = A + B;
 
-window.alert("Hello, world!")
-document.write(C)
+window.alert("Hello, world!");
+document.write(C);

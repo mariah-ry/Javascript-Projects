@@ -11,3 +11,12 @@ function function2() {
     document.getElementById('concatenate').innerHTML = sentence;
     //This function displays a concatenated string//
 }
+
+
+
+function aFunction(A, B, X) {
+    var A = 10;
+    var B = 13;
+    var X = A + B;
+    window.alert(X)
+}
