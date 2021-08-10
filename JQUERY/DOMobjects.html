@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DOM Document Objects</title>
+    </head>
+
+    <body>
+        <p>This is a test paragraph. Click the button to create a comment. </p>
+
+        <button onclick="commentFunction()">Click here</button>
+
+        <p id="test"></p>
+
+        <script>
+            function commentFunction() {
+                var c = document.createComment("comments");
+                document.body.appendChild(c);
+                var x = document.getElementById('test');
+                x.innerHTML = "This is a comment.";
+            }
+        </script>
+    </body>
+</html>
